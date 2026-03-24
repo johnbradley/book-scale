@@ -1,0 +1,5 @@
+{
+  "name": "3D Book Scale Visualizer",
+  "description": "Visualize the physical scale of books based on line count in a 3D environment.",
+  "requestFramePermissions": []
+}
