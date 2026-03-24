@@ -1,20 +1,29 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Book Scale Visualizer
 
-# Run and deploy your AI Studio app
+A 3D visualization tool for understanding the physical size of a book based on its line count. Compare your book against classics like *War and Peace* and *The Hobbit* to get a sense of scale.
 
-This contains everything you need to run your app locally.
+**Live demo:** https://johnbradley.github.io/book-scale/
 
-View your app in AI Studio: https://ai.studio/apps/35df164d-5ea6-43f9-b318-981a77bac879
+## Features
+
+- Enter a line count and book title to render a 3D book with realistic proportions
+- Toggle reference books (*War and Peace*, *The Hobbit*) for scale comparison
+- Drag to rotate, scroll to zoom
+- URL parameters (`?lines=&title=`) are updated automatically for easy sharing
 
 ## Run Locally
 
-**Prerequisites:**  Node.js
-
+**Prerequisites:** Node.js
 
 1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+   ```
+   npm install
+   ```
+2. Run the app:
+   ```
+   npm run dev
+   ```
+
+## Deploy
+
+Pushes to `main` automatically deploy to GitHub Pages via the included workflow.
